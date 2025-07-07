@@ -231,6 +231,12 @@ footer {
   flex-direction: column;
 }
 
+.horz-left {
+  -ms-align-items: center;
+  align-items: left;
+  flex-direction: column;
+}
+
 .vert-center {
   -ms-align-items: center;
   align-items: center;
@@ -342,7 +348,7 @@ div > iframe {
   line-height: 40px;
   margin-top: 25px;
   min-width: 300px;
-  width: 80%;
+  width: 100%;
 }
 
 /* ---------------------------------
