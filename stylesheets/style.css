@@ -233,7 +233,7 @@ footer {
 
 .horz-left {
   -ms-align-items: center;
-  align-items: left;
+  align-items: flex-start;
   flex-direction: column;
 }
 
