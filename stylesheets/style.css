@@ -134,22 +134,6 @@ header {
   color: #000000;
 }
 
-#projects > ul {
-  -ms-align-items: flex-start;
-  align-items: flex-start;
-  margin-top: 75px;
-}
-
-#projects img {
-  border-radius: 5px;
-  box-shadow: 0 0 25px #d2d7d3;
-  width: 100%;
-}
-
-#projects p {
-  text-align: center;
-}
-
 h4 {
   align-items: center;
   color: var(--color-turquoise);
@@ -422,11 +406,6 @@ div > iframe {
     margin: 20px;
     width: 55px;
   }
-
-  #projects p {
-    font-size: 0.85rem;
-    line-height: 1.5rem;
-  }
 }
 
 @media (max-width: 920px) {
@@ -441,18 +420,6 @@ div > iframe {
 
   li:last-of-type {
     margin-bottom: 0;
-  }
-
-  #projects p {
-    font-size: 1rem;
-    line-height: 1.7rem;
-  }
-
-  #projects > ul {
-    -ms-align-items: center;
-    align-items: center;
-    flex-direction: column;
-    width: 75%;
   }
 
   #logo {
@@ -538,10 +505,6 @@ div > iframe {
   #apex-repo-btn {
     align-self: center;
   }
-
-  #projects > ul {
-    width: 100%;
-  }
 }
 
 @media (max-width: 465px) {
@@ -555,10 +518,6 @@ div > iframe {
 
   #contact li {
     margin: 15%;
-  }
-
-  #projects > ul {
-    width: 100%;
   }
 }
 
@@ -582,18 +541,6 @@ div > iframe {
   #apex-repo-btn {
     font-size: 18px;
     width: 180px;
-  }
-
-  #projects > ul {
-    margin-top: 50px;
-  }
-
-  #projects li {
-    margin-bottom: 50px;
-  }
-
-  #projects li:last-of-type {
-    margin-bottom: 0;
   }
 }
 
